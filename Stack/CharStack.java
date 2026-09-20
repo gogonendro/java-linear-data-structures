@@ -77,12 +77,11 @@ public class CharStack {
 
             choice = sc.nextInt();
 
-            // switch case menu-driven block
             switch (choice) {
                 case 1:
                     System.out.println("Enter a character:");
                     char value = sc.next().charAt(0);
-                    ob.push(value); // pushes the entered value into the stack
+                    ob.push(value);
                     break;
 
                 case 2:
