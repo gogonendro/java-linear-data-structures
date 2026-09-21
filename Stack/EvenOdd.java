@@ -3,16 +3,19 @@ package Stack;
 import java.util.*;
 
 public class EvenOdd {
+    // instance variables
     int arr[];
     int top;
     int size;
 
+    // default constructor to initialize variables
     EvenOdd() {
-        size = 50;
-        top = -1;
+        size = 50; // default size 50
+        top = -1; // position of top element when stack empty
         arr = new int[size];
     }
 
+    // parameterized constructor to determine the capacity of the stack
     EvenOdd(int cap) {
         if (cap > 0 && cap <= 50) {
             size = cap;
@@ -24,6 +27,7 @@ public class EvenOdd {
         top = -1;
     }
 
+    // method to push elements into the stack
     void push(int n) {
         if (top == size - 1) {
             System.out.println("Overflow");
@@ -34,10 +38,12 @@ public class EvenOdd {
         }
     }
 
+    // method to calculate sum of digits of each element
     void count() {
         if (top == -1) {
             System.out.println("Stack empty");
         } else {
+            // counters for even and odd numbers
             int even = 0;
             int odd = 0;
             for (int i = 0; i <= top; i++) {
