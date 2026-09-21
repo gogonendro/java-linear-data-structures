@@ -6,7 +6,7 @@ This repo contains two folders:
 - **Stack** - Contains 10 programs based on Stacks
 - **Queue** - *programs yet to be pushed*
 
-### Stacks
+### Stack
 This folder contains 15 Stack based programs:
 1. **StackBasic**: Implements a stack and performs basic operations
 2. **StackSearch**: Implements a stack and searches for a given element
