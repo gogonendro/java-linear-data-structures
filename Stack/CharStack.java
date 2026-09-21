@@ -3,16 +3,19 @@ package Stack;
 import java.util.*;
 
 public class CharStack {
+    // instance variables
     char arr[];
     int top;
     int size;
 
+    // default constructor to initialize variables
     CharStack() {
-        size = 50;
-        top = -1;
+        size = 50; // default size 50
+        top = -1; // position of top element when stack empty
         arr = new char[size];
     }
 
+    // parameterized constructor to determine the capacity of the stack
     CharStack(int cap) {
         if (cap > 0 && cap <= 50) {
             size = cap;
@@ -24,6 +27,7 @@ public class CharStack {
         arr = new char[size];
     }
 
+    // method to push element
     void push(char ch) {
         if (top == size - 1) {
             System.out.println("Overflow");
@@ -34,6 +38,7 @@ public class CharStack {
         }
     }
 
+    // method to pop element
     void pop() {
         if (top == -1) {
             System.out.println("Underflow");
@@ -43,6 +48,7 @@ public class CharStack {
         }
     }
 
+    // method to peek
     void peek() {
         if (top == -1) {
             System.out.println("Stack empty");
@@ -51,6 +57,7 @@ public class CharStack {
         }
     }
 
+    // method to display elements
     void display() {
         if (top == -1) {
             System.out.println("Stack empty");
