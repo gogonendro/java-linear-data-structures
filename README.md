@@ -3,8 +3,8 @@ Java programs based on Stacks, Queues, and Linked Lists
 
 ## What this repository contains
 This repo contains two folders:
-**Stack** - Contains 10 programs based on Stacks
-**Queue** - *programs yet to be pushed*
+- **Stack** - Contains 10 programs based on Stacks
+- **Queue** - *programs yet to be pushed*
 
 ### Stacks
 This folder contains 15 Stack based programs:
