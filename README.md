@@ -1,5 +1,5 @@
-# java-data-structures
-Java programs based on Stacks, Queues, and Linked Lists
+# java-linear-data-structures
+Java programs based on Stacks and Queues
 
 ## What this repository contains
 This repo contains two folders:
