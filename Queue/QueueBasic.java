@@ -17,18 +17,22 @@ public class QueueBasic {
 
     // adding element
     void add_ele(int n) {
+
         // when rear equals to size then queue is full
         if (rear == size) {
             System.out.println("Queue Overflow");
         } else {
+
             // when rear and front is 0 (queue empty), make them one
             if (rear == 0 && front == 0) {
                 front = 1;
                 rear = 1;
+
                 // if not empty, then increase by one
             } else {
                 rear += 1;
             }
+
             // then add the element in the newly created space
             que[rear] = n;
         }
@@ -36,18 +40,22 @@ public class QueueBasic {
 
     // deleting an element
     int del_ele() {
+
         // when rear and front equals 0, then queue is empty
         if (rear == 0 && front == 0) {
             System.out.println("Queue Underflows");
             return -9999; // return something to break
         } else {
+
             // store front element in n
             int n = que[front];
+
             // front = rear only when they equal to 1 (only one element present), so make
             // them 0 (empty)
             if (front == rear) {
                 front = 0;
                 rear = 0;
+
                 // if more than one present, increase front by one
             } else {
                 front += 1;
@@ -57,6 +65,7 @@ public class QueueBasic {
     }
 
     void display() {
+
         // checks if queue is empty
         if (rear == 0 && front == 0) {
             System.out.println("Queue is empty");
