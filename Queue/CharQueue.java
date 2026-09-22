@@ -1,3 +1,4 @@
+//same program as basic queue but with char data type
 package Queue;
 
 import java.util.*;
