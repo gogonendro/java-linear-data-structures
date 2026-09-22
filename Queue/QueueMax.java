@@ -7,18 +7,25 @@ public class QueueMax {
     int size, front, rear, max;
 
     QueueMax(int cap) {
-        size = cap;
-        rear = 0;
-        front = 0;
+        // in-case user enters an invalid capacity
+        if (cap > 0 && cap <= 50) {
+            size = cap;
+        } else {
+            System.out.println("Invalid size. Default size 50 selected");
+            size = 50;
+        }
+        // using general convention of -1 as empty
+        rear = -1;
+        front = -1;
     }
 
     void add_ele(int n) {
-        if (rear == size) {
+        if (rear == size - 1) {
             System.out.println("QUEUE OVERFLOW!");
         } else {
-            if (rear == 0 && front == 0) {
-                front = 1;
-                rear = 1;
+            if (rear == -1 && front == -1) {
+                front = 0;
+                rear = 0;
             } else {
                 rear += 1;
             }
@@ -27,7 +34,7 @@ public class QueueMax {
     }
 
     void getMax() {
-        if (front == 0 && rear == 0) {
+        if (front == -1 && rear == -1) {
             System.out.println("QUEUE EMPTY!");
         } else {
             max = que[front];
