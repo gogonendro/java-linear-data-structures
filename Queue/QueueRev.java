@@ -72,5 +72,6 @@ public class QueueRev {
                     break;
             }
         } while (choice != 3);
+        sc.close();
     }
 }
