@@ -1,36 +1,77 @@
 # java-linear-data-structures
-Java programs based on Stack and Queue
+
+Java programs based on **Stack and Queue**, covering fundamental linear data structure concepts and operations at the Class XII level.
 
 ## What this repository contains
-This repo contains two folders:
-- **Stack** - Contains 10 programs based on Stack
-- **Queue** - Contains 10 programs based on Queue
+
+This repository contains **20 Java programs** organized into two sections:
+
+- **Stack** — 10 programs based on Stack
+- **Queue** — 10 programs based on Queue
+
+---
+
+## 1. Stack
+
+Programs based on Stack operations and applications.
+
+1. **StackBasic** — performs basic PUSH, POP, PEEK and DISPLAY operations.
+2. **StackSearch** — searches for a given element and finds its position from the top.
+3. **CharStack** — performs basic Stack operations using characters.
+4. **StackRev** — reverses an accepted string using Stack operations.
+5. **PalinCheck** — checks whether an accepted string is a palindrome using a Stack.
+6. **StackSum** — calculates the sum of all elements present in the Stack.
+7. **StackMax** — finds the largest element present in the Stack.
+8. **StackMin** — finds the smallest element present in the Stack.
+9. **EvenOdd** — counts the number of even and odd elements present in the Stack.
+10. **DigSum** — calculates the sum of digits of each element in the Stack.
+
+---
+
+## 2. Queue
+
+Programs based on Queue operations and applications.
+
+1. **QueueBasic** — implements a linear Queue using an integer array with INSERT, DELETE and DISPLAY operations.
+2. **QueueSearch** — searches for a given element and finds its position from the front.
+3. **CharQueue** — implements a character Queue and performs basic Queue operations.
+4. **QueueRev** — displays the elements of a Queue in reverse order.
+5. **QueuePalin** — uses a Queue to check whether an accepted string is a palindrome.
+6. **QueueSum** — calculates the sum of all elements present in the Queue.
+7. **QueueMax** — finds the largest element present in the Queue.
+8. **QueueMin** — finds the smallest element present in the Queue.
+9. **QueueEvenOdd** — counts the number of even and odd elements present in the Queue.
+10. **QueAvg** — calculates the average of all elements present in the Queue.
+
+---
+
+## Concepts Covered
 
 ### Stack
-This folder contains 10 Stack based programs:
-1. **StackBasic**: Performs basic PUSH, POP, PEEK and DISPLAY operations
-2. **StackSearch**: Searches for a given element and finds its position from the top
-3. **CharStack**: Performs basic stack operations on characters
-4. **StackRev**: Reverses the accepted string using stack operations
-5. **PalinCheck**: Checks whether the accepted string is a palindrome
-6. **StackSum**: Calculates the sum of all elements in the stack
-7. **StackMax**: Finds the largest element in the stack
-8. **StackMin**: Finds the smallest element in the stack
-9. **EvenOdd**: Counts the number of even and odd elements in the stack
-10. **DigSum**: Calculates the sum of digits of each element in the stack
+
+- PUSH
+- POP
+- PEEK
+- DISPLAY
+- Stack overflow and underflow
+- Searching
+- Character Stack
+- String reversal
+- Palindrome checking
+- Numerical operations on Stack elements
 
 ### Queue
-This folder contains 10 Queue based programs:
-1. **QueueBasic**: Implements a linear queue using an integer array with INSERT, DELETE, and DISPLAY operations
-2. **QueueSearch**: Searches for a given element in a queue and displays its position from the front
-3. **CharQueue**: Implements a character queue and performs basic queue operations
-4. **QueueRev**: Displays the elements of a queue in reverse order
-5. **QueuePalin**: Uses a queue to check whether a given string is a palindrome
-6. **QueueSum**: Calculates the sum of all elements present in a queue
-7. **QueueMax**: Finds the largest element present in a queue
-8. **QueueMin**: Finds the smallest element present in a queue
-9. **QueueEvenOdd**: Counts the number of even and odd elements present in a queue
-10. **QueAvg**: Calculates the average of all elements present in a queue
 
-### Level
-Class XII ISC
+- INSERT
+- DELETE
+- DISPLAY
+- Queue overflow and underflow
+- Searching
+- Character Queue
+- Reverse display
+- Palindrome checking
+- Numerical operations on Queue elements
+
+## Level
+
+**Class XII / ISC Computer Science**
