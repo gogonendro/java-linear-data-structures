@@ -1,6 +1,6 @@
 # java-linear-data-structures
 
-Java programs based on **Stack and Queue**, covering fundamental linear data structure concepts and operations at the Class XII level.
+Java programs based on **Stack and Queue**, covering fundamental linear data structure concepts and operations at the Class XII level
 
 ## What this repository contains
 
@@ -13,7 +13,7 @@ This repository contains **20 Java programs** organized into two sections:
 
 ## 1. Stack
 
-Programs based on Stack operations and applications.
+Programs based on Stack operations and applications
 
 1. **StackBasic** — performs basic PUSH, POP, PEEK and DISPLAY operations.
 2. **StackSearch** — searches for a given element and finds its position from the top.
@@ -30,7 +30,7 @@ Programs based on Stack operations and applications.
 
 ## 2. Queue
 
-Programs based on Queue operations and applications.
+Programs based on Queue operations and applications
 
 1. **QueueBasic** — implements a linear Queue using an integer array with INSERT, DELETE and DISPLAY operations.
 2. **QueueSearch** — searches for a given element and finds its position from the front.
