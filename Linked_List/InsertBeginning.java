@@ -15,7 +15,7 @@ public class InsertBeginning {
         }
     }
 
-    // method to insert element before the previous one
+    // method to insert an element at the beginning
     void insertBeginning(int data) {
         Node newNode = new Node(data);
         newNode.next = head; // head becomes the second element
