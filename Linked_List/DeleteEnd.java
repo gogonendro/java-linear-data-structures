@@ -81,9 +81,10 @@ public class DeleteEnd {
         System.out.print("List: ");
         de.printList();
 
-        de.delEnd();
-        System.out.print("\nList after deleting last element: ");
-        de.printList();
+        if (de.delEnd()) {
+            System.out.print("\nList after deleting last element: ");
+            de.printList();
+        }
 
         sc.close();
     }
