@@ -61,10 +61,31 @@ Programs covering fundamental Queue concepts, operations, and applications
 ---
 
 ## 3. Linked List
-
 Programs covering fundamental Linked List concepts, operations, and applications
 
-*Programs to be added*
+### Basic Operations
+1. **LinkedListBasic** — creates and displays a singly linked list.
+2. **InsertBeginning** — inserts a node at the beginning of the linked list.
+3. **InsertEnd** — inserts a node at the end of the linked list.
+4. **InsertPosition** — inserts a node at a specified position.
+
+### Deletion Operations
+5. **DeleteBeginning** — deletes the first node of the linked list.
+6. **DeleteEnd** — deletes the last node of the linked list.
+7. **DeletePosition** — deletes a node at a specified position.
+8. **DeleteEle** — deletes the first occurrence of a specified element.
+
+### Searching and Analysis
+9. **Search** — searches for an element and identifies its position.
+10. **CountNodes** — counts the number of nodes in the linked list.
+11. **MaxNode** — finds the largest element in the linked list.
+12. **MinNode** — finds the smallest element in the linked list.
+13. **MiddleNode** — finds the middle element, selecting the second middle for an even number of nodes.
+
+### Reversal and Sorting
+14. **Reverse** — displays the elements of the linked list in reverse order using recursion.
+15. **SortList** — sorts the linked list in ascending order.
+
 
 ---
 
@@ -99,7 +120,21 @@ Programs covering fundamental Linked List concepts, operations, and applications
 
 ### Linked List
 
-- To be added
+- Singly linked list implementation
+- Nodes and references
+- Head pointer
+- Node creation and insertion
+- Insertion at the beginning, end, and a specified position
+- Deletion from the beginning, end, and a specified position
+- Deletion by element value
+- Traversal and display
+- Searching for elements
+- Counting nodes
+- Finding the maximum and minimum elements
+- Finding the middle element
+- Recursive reverse-order display
+- Sorting linked-list elements in ascending order
+- Handling empty lists and invalid positions
 
 ### Linear Data Structures
 
